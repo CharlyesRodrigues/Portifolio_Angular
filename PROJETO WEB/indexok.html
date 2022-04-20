@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <style>
+
+     *{
+       margin: 0%;
+       padding: 0%;
+     }
+     .flex-container{
+     display: flex;
+     justify-content:space-evenly;
+     color: dodgerblue;
+     background-color:black;
+     }
+     .flex-container > div{
+      color: #f1f1f1;
+      width: 390px;
+      margin: 10px;
+      text-align: center;
+      line-height:75px ;
+      font-size: 30px;
+      position: relative;
+     }
+     body{
+     background-color:black ;
+     height: 1000px;
+     }
+     #teste{width: 100px;
+     position: relative;
+     animation: mymove 5s infinite;
+     animation-delay: 2s;
+     }
+
+     @keyframes mymove {
+     from {left: 0px;}
+     to {left: 200px;}
+       }
+     #teste2{
+     padding-left: 700px;
+     }
+     .navbar navbar-expand-sm bg-light{
+     position:relative;
+     }
+     #bloco{
+     text-align:center;
+     color: #f1f1f1;
+     position:absolute;
+     z-index: 1;
+     margin-left: 280px;
+     margin-top: 50px;
+     }
+     #zenitsu{
+     margin-top: 100px;
+     margin-left: 50px;
+     }
+     footer{
+     padding-top: 150px;
+     width: 1250px; 
+     
+     }
+     .cha{
+     color:black;
+     padding-top: 10px;
+     }
+     #Criado{
+     color:coral;
+
+     }
+     #rodape{
+     border: solid;
+    
+     
+     }
+     #rostonaparede{
+     margin-left: 980px ;
+     position: absolute;
+     z-index: 1;
+     margin-top: 100px;
+     }
+     #lateral{
+     margin: 10px;
+     margin-top: 100px;
+     border: 2px solid ;
+     width: 100px;
+     border-radius: 10px;
+     color: aliceblue;
+     position: relative;
+     }
+     p{
+     width: 580px;
+     border: solid;
+     margin-left: 300px;
+     height: 30px;
+     text-align: center;
+     background-color: cadetblue;
+     }
+     #discord{
+     border: solid;
+     background-color: darkcyan;
+     width:1260px;
+     text-align: center;
+     height: 27px;
+     }
+     #slide1{
+     margin-left:160px ;
+     position: absolute;
+     z-index: 1;
+     margin-top: 105px;
+     }
+     #slide2{
+     margin-left:500px ;
+     position: absolute;
+     z-index: 1;
+     margin-top: 105px;
+     }
+     #slide3{
+     margin-left:840px ;
+     position: absolute;
+     z-index: 1;
+     margin-top: 105px;
+     }
+
+    
+     .float{
+     position:fixed;
+     width:60px;
+     height:60px;
+     bottom:40px;
+     right:40px;
+     background-color:#25d366;
+     color:#FFF;
+     border-radius:50px;
+     text-align:center;
+     font-size:30px;
+     box-shadow: 2px 2px 3px #999;
+     z-index:100;
+     }
+     .my-float{
+      margin-top:16px;
+      } 
+     #Linkedin{
+     position: absolute;
+     margin-left: 440px;
+     margin-top: 513px;
+     }
+     #Facebook{
+     position: absolute;
+     margin-left: 495px;
+     margin-top: 528px;
+     }
+     #Instagram{
+     position: absolute;
+     margin-left: 520px;
+     margin-top: 528px;
+     }
+     #GitHub{
+     position: absolute;
+     margin-left:580px;
+     margin-top: 515px;
+
+     }
+     #Goku{
+     position: absolute;
+     margin-left: 900px;
+     margin-top: 110px;    
+     }
+     #Visita{
+     position: absolute;
+     margin-left: 1050px;
+     margin-top: 15px;    
+     text-align:center;
+     color: coral;
+     
+     }
+    </style>
+    <!-- O nome dentro da tag título vai aparecer na aba do navegador de internet-->
+    <title>O MUNDO DOS ANIMES </title>
+  </head>
+  <body >
+  
+    <header>
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">
+          <div id="teste">
+          <img src="C:\Develops\IDES\vscode\Estudo Html5\IMG\img\Anime-logo-square.png" alt="Logo" style="width:200px; height: 50px;">
+          </div>        
+        </a>
+        <!-- padding-left: 700px(Afastando o campo de pesquisa do lado esquerdo para o direito)-->
+        <div id="teste2">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <form class="form-inline" action="/action_page.php">
+           <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+         </form>
+         </nav>
+        </div>
+      </nav>
+    </header>
+      <div class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1" ></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+      
+        <!-- Apresentação de slides Abaixo do cabeçalho-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\tokyo-ghoul-anime-4k-o1.jpg" alt="Los Angeles" width="1300" height="280">
+          </div>
+          <div class="carousel-item">
+            <img src="C:\Develops\IDES\vscode\Estudo Html5\IMG\img\best-anime-wallpaper-HD4 (1).jpg" alt="Chicago" width="1300" height="250">
+          </div>
+          <div class="carousel-item">
+            <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\wp5407851.webp" alt="New York" width="1300" height="280">
+          </div>
+          <div class="carousel-item" >
+            
+            <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\legiao_1MQfXy05GIbm.png.jpeg"   alt="New York" width="1300" height="280">
+                
+          </div>
+        </div> 
+        <!-- Controles esquerdo e direito(Ficam dentro do banner) -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a> 
+      
+       </div>
+        <!-- Uma barra de navegação horizontal cinza que se torna vertical em telas pequenas Titan Eren -->
+       <nav class="navbar navbar-dark bg-dark" ></nav> 
+           
+       <div class="flex-container">
+       <div><img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\23323-8-dragon-ball-goku ok.png" alt="" height="150px"></div> 
+         <div><img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\53-531175_death-note-png.png" alt="" height="150px" > </div>
+         <div><img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\Attack-On-Titan-PNG-Image.png" alt=""  height="155px" >  </div>
+       </div>
+     
+       <p>Assista Animes Online em HD,Legendado ou Dublado aqui no seu portal ANIME</p>
+       <div id="discord">
+       <h5>ACESSE NOSSO DISCORD</h5>
+       </div>
+      
+     </div>
+   
+
+     <span id="slide1">
+      <div class="carousel slide" data-ride="carousel">
+         <!-- Indicadores -->
+        <ul class="carousel-indicators">
+         <li data-target="#demo" data-slide-to="0" class="active"></li>
+         <li data-target="#demo" data-slide-to="1" ></li>
+         <li data-target="#demo" data-slide-to="2"></li>
+         <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+     
+          <!-- The slideshow -->
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\tokyo-ghoul-anime-4k-o1.jpg" alt="Los Angeles" width="300" height="280">
+         </div>
+         <div class="carousel-item">
+           <img src="C:\Develops\IDES\vscode\Estudo Html5\IMG\img\best-anime-wallpaper-HD4 (1).jpg" alt="Chicago" width="300" height="280">
+         </div>
+         <div class="carousel-item">
+           <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\wp5407851.webp" alt="New York" width="300" height="280">
+         </div>
+         <div class="carousel-item" >
+           
+           <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\legiao_1MQfXy05GIbm.png.jpeg"   alt="New York" width="300" height="280">
+               
+         </div>
+       </div> 
+       <!-- Left and right controls -->
+       <a class="carousel-control-prev" href="#demo" data-slide="prev">
+         <span class="carousel-control-prev-icon"></span>
+       </a>
+       <a class="carousel-control-next" href="#demo" data-slide="next">
+         <span class="carousel-control-next-icon"></span>
+       </a>
+     
+   </div>
+      
+ </span>    
+ <span id="slide2">
+     <div class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+       <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1" ></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+       </ul>
+    
+         <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\the-promised-neverland-vol-anime-the-promised-neverland.jpg" alt="Los Angeles" width="300" height="280">
+        </div>
+        <div class="carousel-item">
+          <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\apaixonados-12872210-300420181942.png" alt="Chicago" width="300" height="280">
+        </div>
+        <div class="carousel-item">
+          <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\dead note.jpg" alt="New York" width="300" height="280">
+        </div>
+        <div class="carousel-item" >
+          
+          <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\pinterest.jpg"   alt="New York" width="300" height="280">
+          
+        </div>
+      </div> 
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    
+  </div>
+     
+ </span>    
+ 
+ 
+ <span id="slide3">
+     <div class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+       <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1" ></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+       </ul>
+    
+         <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\atack on titon.jpg" alt="Los Angeles" width="300" height="280">
+        </div>
+        <div class="carousel-item">
+          <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\Dragon-Ball-z-.jpg.crdownload" alt="Chicago" width="300" height="280">
+        </div>
+        <div class="carousel-item">
+          <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\cavalheiros do zodiaco.png" alt="New York" width="300" height="280">
+        </div>
+        <div class="carousel-item" >
+          
+          <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\demon-slayer-melhores-wallpapers-4k-celular-baixar-kimetsu-no-yaiba-576x1024.jpg"   alt="New York" width="300" height="280">
+          
+        </div>
+      </div> 
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    
+  </div>
+     
+ </span>    
+ 
+
+<!-- -->
+      <nav id="lateral">
+       <ul class="nav flex-column">
+         <li class="nav-item">
+           <a class="nav-link" href="#">Home</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Animes</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Favoritos</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link " href="#">Histórico</a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Filmes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Calendário</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+       </ul>
+    
+    </nav>
+    <img id="rostonaparede" src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\rosto png.png" alt="Rosto na parede" height="240px " width="220px">
+      <div id="bloco" ><h3 class="mestre">"Seja mestre de uma única coisa" </h3> <br>
+
+         Zenitsu é medroso, barulhento e atrapalhado. <br> Mas treinou tanto um único ataque, que ele se tornou mestre neste movimento. <br>Quando ele utiliza este ataque, é poderoso de tal forma, <br> que se equipara a guerreiros de mais alto nível.
+      
+         <br>Por mais que você deva se tornar um profissional completo. <br>Saiba que você deve ser mestre em algo. <br>De preferência isso é seu primeiro passo.
+      
+          <br>Se você é programador, se torne mestre em sua linguagem.<br> Antes de querer aprender um milhão de arquiteturas <br> e padrões e outras tecnologias, <br>muito menos ficar pulando de uma linguagem pra outra.
+      </div>
+    <img id="zenitsu" src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\zenitsu.png" alt="Zenitsu" height="250px " width="170px">
+     
+    <div id="Goku"> <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\Goku-Concentrado-PNG.png" alt="Goku" height="200 " width="150px">  </div>
+    <a id="GitHub" href="https://github.com/CharlyesRodrigues"><img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\Octocat.png" alt="GitHub" height="70px " width="45px">  </a>
+    <a id="Instagram" href="https://www.instagram.com/charlyes_rodrigues/"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" height="50px " width="45px">  </a>
+    <a id="Linkedin" href="https://www.linkedin.com/in/charlyes-rodrigues/"> <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\linkedin.png" alt="Linkedin" height="80px " width="70px">  </a>
+   <!-- <a id="Facebook" href="https://www.facebook.com/"> <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\598px-Face.png" alt="Facebook" height="50px " width="45px">  </a> -->
+    <a  href="https://api.whatsapp.com/send?phone=35999227753&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>  
+     
+   <footer>
+    <h4 id="Visita">Estou contando <br>com <br>sua  visita viu ?</h4>
+    <div id="rodape" class="media bg-dark p-2">
+     <img src="C:\Users\FAMÍLIA RODRIGUES\Documents\GitHub\FAM-LIA-RODRIGUES\PROJETO WEB\imagens\Foto Ju e Cha.jpeg" alt="Charlyes Souza Rodrigues" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+         
+      <div class="media-body">
+       <br>
+       <h4 class="cha">Charlyes Souza Rodrigues <small><i id="Criado">(Criado em 18 de Abril, 2022)</i></small></h4>
+       <a href="charlyessouza@gmail.com">charlyessouza@gmail.com</a>
+      </div>
+            
+    </div> 
+    
+  </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
