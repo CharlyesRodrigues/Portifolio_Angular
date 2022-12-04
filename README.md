@@ -13,3 +13,9 @@ a linguagem selecionada
 CSS
 
 ![Capturar](https://user-images.githubusercontent.com/98665329/205498324-dc43a357-a08d-42d3-9e76-a36ec14ac161.PNG)
+
+
+![Capturar](https://user-images.githubusercontent.com/98665329/205498399-942e5d29-c27b-4048-9d36-a06f2fefd2d8.PNG)
+
+
+![Capturar](https://user-images.githubusercontent.com/98665329/205498434-1dfe312e-cddb-4f74-a0dc-c682a12842bd.PNG)
