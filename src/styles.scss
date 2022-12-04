@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root{
+    --white:#FFFFFF;
+    --dark: #121212;
+    --white: #EDEDED ;
+    --Rectangle-4234: #27272A;
+    --red :#990100;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+     
+     }
+    
+     body{
+     
+position: absolute;
+width: 1440px;
+height: 900px;
+left: 0px;
+top: 0px;
+
+background: #121212;
+    
+     }
+     body, input, textarea, button{
+
+        font-family: 'Inter', sans-serif;
+        font-weight:400;
+        font-size: 1rem;
+        
+        } 
+        
+        
+        h1, h2, h3, h4, h5, h6, strong {
+        
+        font-weight :600;
+        
+        }
+        
+        button{
+        
+            cursor: pointer;
+        
+        
+        }
