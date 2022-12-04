@@ -14,6 +14,17 @@ export class HomeComponent implements OnInit {
     "Tailwind CSS"
   ];
 
+  lista2 : Array<string> = [
+    "Styled Components",
+    "Saas",
+    "Node",
+    "TypeScript"
+  ];
+
+  lista3 : Array<string> = [
+    "Angular",
+    "Java"
+  ];
   
   constructor(){}
   ngOnInit(): void {
