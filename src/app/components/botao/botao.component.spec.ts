@@ -8,9 +8,9 @@ describe('BotaoComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BotaoComponent ]
+      declarations: [BotaoComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(BotaoComponent);
     component = fixture.componentInstance;

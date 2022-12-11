@@ -1,40 +1,20 @@
 .Principal {
 
-    p {
 
-        position: absolute;
-        width: 791px;
-        height: 76px;
-        left: 325px;
-        top: 168px;
-
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 160%;
-        /* or 38px */
-
-        text-align: center;
-
-        color: #FFFFFF;
-    }
 
     .tecnologias {
 
         box-sizing: border-box;
 
         position: absolute;
-        width: 793px;
-        height: 173px;
-        left: 324px;
-        top: 305px;
+        width: 49.5625rem;
+        height: 10.8125rem;
+        left: 20.25rem;
+        top: 19.0625rem;
 
-        /* Dark/surface-secondary */
-
-        background: #27272A;
-        border: 1px solid #9D4B00;
-        border-radius: 8px;
+        background: var(--Rectangle-4234);
+        border: 0.0625rem solid var(--borda);
+        border-radius: 0.5rem;
 
 
     }
@@ -42,61 +22,54 @@
     .coluna1 {
 
         position: absolute;
-        width: 157px;
-        height: 128px;
-        left: 380px;
-        top: 327px;
+        width: 9.8125rem;
+        height: 8rem;
+        left: 23.75rem;
+        top: 20.4375rem;
 
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
-        font-size: 20px;
-        line-height: 160%;
-        /* or 32px */
+        font-size: 1.25rem;
+        line-height: 2rem;
 
-
-        color: #EDEDED;
+        color: var(--white2);
 
 
     }
 
     .coluna2 {
         position: absolute;
-        width: 222px;
-        height: 128px;
-        left: 635px;
-        top: 327px;
+        width: 13.875rem;
+        height: 8rem;
+        left: 39.6875rem;
+        top: 20.4375rem;
 
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
-        font-size: 20px;
-        line-height: 160%;
-        /* or 32px */
+        font-size: 1.25rem;
+        line-height: 2rem;
 
 
-        color: #EDEDED;
+        color: var(--white2);
     }
 
     .coluna3 {
 
         position: absolute;
-        width: 106px;
-        height: 64px;
-        left: 955px;
-        top: 327px;
+        width: 6.625rem;
+        height: 4rem;
+        left: 59.6875rem;
+        top: 20.4375rem;
 
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
-        font-size: 20px;
-        line-height: 160%;
-        /* or 32px */
+        font-size: 1.25rem;
+        line-height: 2rem;
 
-
-        color: #EDEDED;
-
-
+        color: var(--white2);
 
     }
 

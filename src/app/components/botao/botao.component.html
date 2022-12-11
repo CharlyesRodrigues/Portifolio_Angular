@@ -1,24 +1,23 @@
+<div class="Components_Botao">
 
-<div  class="Components_Botao">
+    <p class="Traduzir">{{traducao}}</p>
 
-<p class="Traduzir">{{traducao}}</p>
+    <button (click)="portugues()">
+        <div id="pt"></div>
+        <h1 class="h1_pt">Portugues</h1>
+        <img class="img_pt" src="./../../../assets/flags/brasil.png">
+    </button>
 
- <button  (click)="portugues()">
- <div id="pt"></div>
-<h1 class="h1_pt">Portugues</h1>
- <img class="img_pt" src="./../../../assets/flags/brasil.png"> 
-</button>
+    <button (click)="english()">
+        <div class="eng"></div>
+        <h1 class="h1_eng">Inglês</h1>
+        <img class="img_eng" src="./../../../assets/flags/usa.png">
+    </button>
 
- <button  (click)="english()">
- <div class="eng"></div>
- <h1 class="h1_eng">Inglês</h1>
- <img class="img_eng" src="./../../../assets/flags/usa.png"> 
-</button>
-
- <button  (click)="espanhol()">
- <div class="esp"></div>
- <h1 class="h1_esp">Espanhol</h1>
- <img class="img_esp" src="./../../../assets/flags/spain.png"> 
- </button> 
+    <button (click)="espanhol()">
+        <div class="esp"></div>
+        <h1 class="h1_esp">Espanhol</h1>
+        <img class="img_esp" src="./../../../assets/flags/spain.png">
+    </button>
 
 </div>

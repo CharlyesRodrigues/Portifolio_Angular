@@ -10,7 +10,7 @@ import { BotaoRoutingModule } from './botao-routing.module';
   imports: [
     CommonModule,
     BotaoRoutingModule
-        
+
   ]
 })
 export class BotaoModule { }

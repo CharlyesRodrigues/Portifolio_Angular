@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BotaoComponent } from './botao.component';
 
 
-const routes: Routes = [{path:'', component:BotaoComponent}];
+const routes: Routes = [{ path: '', component: BotaoComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
