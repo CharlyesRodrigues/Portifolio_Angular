@@ -12,12 +12,12 @@ import { BotaoComponent } from './components/botao/botao.component';
     AppComponent,
     HeaderComponent,
     BotaoComponent,
-  
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]

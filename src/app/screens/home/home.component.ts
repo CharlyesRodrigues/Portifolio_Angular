@@ -6,29 +6,29 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  
-  lista1 : Array<string> = [
+
+  lista1: Array<string> = [
     "JavaScript",
     "React",
-    "Vue Js", 
+    "Vue Js",
     "Tailwind CSS"
   ];
 
-  lista2 : Array<string> = [
+  lista2: Array<string> = [
     "Styled Components",
     "Saas",
     "Node",
     "TypeScript"
   ];
 
-  lista3 : Array<string> = [
+  lista3: Array<string> = [
     "Angular",
     "Java"
   ];
-  
-  constructor(){}
+
+  constructor() { }
   ngOnInit(): void {
-    
-}
+
+  }
 
 }
