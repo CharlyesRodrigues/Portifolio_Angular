@@ -9,9 +9,24 @@ a linguagem selecionada
 3) O botão de linguagem  deve ser um componente onde você passará 3 propriedades: Título,
 ícone e o click dele
 
-4) Esse projeto foi feito em Angular  e para sua estilização utilizei o Saas
+4) Esse projeto foi feito em Angular e para sua estilização utilizei o Saas.
 
+    Para criar os projetos em Angular, temos que instalar sua CLI e para isso utilizei o comando
+npm install -g @angular/cli.
+Após esse comando acima, no terminal digitei outro comando que é o ng new  e o nome do projeto a 
+qual criei que nesse caso é Portifolio_Angular. Abri o projeto no Visual Code
 
+    Nesse projeto utilizei 1 pasta cujo nome é components que contém uma subpasta chamada botao.Criei uma pasta 
+chamada header e uma screens com uma subpasta chamada home.Cada pasta contém 4 arquivos components, 1 arquivo module e
+um arquivo routing. Para a criação dos 4 arquivos components, digitei o comando ng g c que me gerou os 4 arquivos components.
+
+Exemplo: Pasta home teve os seguintes arquivos gerados :
+component.html,
+component.scss,
+component.spec.ts,
+component.ts.
+    Faltou o arquivo module que foi criado através do comando ng g m e o routing que foi criado manualmente através
+do exemplo da routing do app.
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207726923-15719394-0827-4576-8269-7d42be95396a.PNG)
