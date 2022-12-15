@@ -27,6 +27,12 @@ component.spec.ts,
 component.ts.
     Faltou o arquivo module que foi criado através do comando ng g m e o routing que foi criado manualmente através
 do exemplo da routing do app.
+ Após criado os components, os modules e os routings, eu configurei meu arquivo global dentro do styles.scss e importei
+ dentro dele a font contida no import forncecida pelo google fonts.Após isso apaguei quase toda a escrita contida dentro
+ do component.html do meu app. Como eu disse apaguei quase tudo, ou seja, deixei só o <router-outlet></router-outlet>
+
+
+
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207726923-15719394-0827-4576-8269-7d42be95396a.PNG)
