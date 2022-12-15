@@ -21,7 +21,7 @@
         color: var(--white);
     }
 
-    #pt {
+    div {
 
         position: absolute;
         width: 8.3125rem;
@@ -33,12 +33,12 @@
         border-radius: 0.5rem;
     }
 
-    #pt:hover {
+    div:hover {
         background-color: var(--dark);
         transition-duration: 0.2s;
     }
 
-    .h1_pt {
+    h1 {
 
         position: absolute;
         width: 5.0625rem;
@@ -56,7 +56,7 @@
 
     }
 
-    .img_pt {
+    img {
 
         position: absolute;
         width: 1.25rem;
@@ -64,8 +64,10 @@
         left: 30.125rem;
         top: 52.3125rem;
     }
+}
 
-    .eng {
+.Components_Botao2 {
+    div {
 
         position: absolute;
         width: 8.3125rem;
@@ -79,12 +81,12 @@
 
     }
 
-    .eng:hover {
+    div:hover {
         background-color: var(--dark);
         transition-duration: 0.2s;
     }
 
-    .h1_eng {
+    h1 {
 
         position: absolute;
         width: 2.9375rem;
@@ -104,7 +106,7 @@
 
     }
 
-    .img_eng {
+    img {
 
         position: absolute;
         width: 1.25rem;
@@ -115,8 +117,11 @@
 
 
     }
+}
 
-    .esp {
+.Components_Botao3 {
+    
+    div{
         position: absolute;
         width: 8.3125rem;
         height: 3.1875rem;
@@ -128,12 +133,12 @@
 
     }
 
-    .esp:hover {
+    div:hover {
         background-color: var(--dark);
         transition-duration: 0.2s;
     }
 
-    .h1_esp {
+    h1{
 
         position: absolute;
         width: 4.5rem;
@@ -152,7 +157,7 @@
 
     }
 
-    .img_esp {
+    img {
 
         position: absolute;
         width: 1.25rem;
