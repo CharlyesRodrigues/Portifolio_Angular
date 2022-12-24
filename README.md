@@ -96,7 +96,7 @@ serve para reconhecer os arquivos que criamos
 
 Para esse projeto foram criados 3 componentes a qual dei o nome de:
 
-- botao => responsável pela acão de mudança de idioma conforme o botão escolhido.
+- botao => responsável pela acão de mudança de idioma conforme o botão escolhido através da função criada para esse objetivo
 * header=> reponsável pelo cabeçalho do projeto
 + home => ficou responsável pela lista de teconologias (array)
 
