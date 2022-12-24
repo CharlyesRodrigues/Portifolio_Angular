@@ -12,6 +12,7 @@ a linguagem selecionada
 4) Esse projeto foi feito em Angular e para sua estilização utilizei o Saas.
 
 
+
                                                     Passo a Passo do Projeto:
 Instalando no terminal power shell clicando no botão direito como administrador para o projeto em angular 
 
