@@ -54,12 +54,11 @@ Criando module:
 
 ng g m
 
-É uma classe marcada pelo decorador. recebe um objeto de metadados que descreve como compilar o modelo de um componente e como criar um injetor em tempo de execução.
-
 
 Após criado os components, os modules e os routings, eu configurei meu arquivo global dentro do styles.scss e importei
 dentro dele a font contida no import forncecida pelo google fonts.Após isso apaguei quase toda a escrita contida dentro
-do component.html do meu app. Como eu disse apaguei quase tudo, ou seja, deixei só o <router-outlet>
+do component.html do meu app. Como eu disse apaguei quase tudo, ou seja, deixei só o
+<router-outlet></router-outlet>
 
 
 
