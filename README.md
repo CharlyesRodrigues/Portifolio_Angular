@@ -171,9 +171,15 @@ Estilizando o projeto  conforme o identificador dado a tag no html
 Fiz no app.component.html  a integração de todos os component criado no projeto.Foi necessário utilizar o seletor 
 de cada componente.
 
-* <router-outlet></router-outlet>
-* <app-header></app-header>
-* <app-botao></app-botao>
+![image](https://user-images.githubusercontent.com/98665329/209452683-74cf0751-33d1-447e-abba-f787949e90ed.png)
+
+O componente da Home foi integrada  através do app-routing.ts
+
+![image](https://user-images.githubusercontent.com/98665329/209452706-feaa1ae8-0684-4def-b568-ed3d71f02620.png)
+
+
+
+
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207726923-15719394-0827-4576-8269-7d42be95396a.PNG)
