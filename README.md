@@ -11,7 +11,6 @@ a linguagem selecionada
 
 4) Esse projeto foi feito em Angular e para sua estilização utilizei o Saas.
 
-![Angular](src/assets/Frameworks/angular.png)
 
     Para criar os projetos em Angular, temos que instalar sua CLI e para isso utilizei o comando
 npm install -g @angular/cli.
