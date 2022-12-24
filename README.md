@@ -20,7 +20,7 @@ npm install -g @angular/cli
 
 2º Para criar, construir e servir um novo projeto Angular básico em um servidor de desenvolvimento, vá para o diretório (pasta) que criou no seu espaço de trabalho e use o seguinte comando
 
-ng new nome do projeto ( ex. projetoangular-web3.0)  
+ng new nome do projeto (no meu caso Portifolio_Angular)  
 
 Quando perguntar digita: - y 
 
