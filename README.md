@@ -24,7 +24,7 @@ Com o SASS, é muito mais fácil desenvolver um projeto grande e não se perder 
    
 
 
-                                                    Passo a Passo do Projeto:
+# Passo a Passo do Projeto:
 Instalando no terminal power shell clicando no botão direito como administrador para o projeto em angular 
 
 1º Executar o comando CLI usando o npm gerenciador de pacotes e clica com botão direito em administrador, ao abrir digita:
@@ -92,8 +92,78 @@ que é o nosso arquivo de teste.
 serve para reconhecer os arquivos que criamos
 
 
-                                                    ##Funcionalidades 
+# Funcionalidades 
 
+Para esse projeto foram criados 3 componentes a qual dei o nome de botao,header e home.
+
+- botao => responsável pela acão de mudança de idioma conforme o botão escolhido através da função criada para esse objetivo
+
+![image](https://user-images.githubusercontent.com/98665329/209449663-3ba38117-9849-4187-9a2d-a14d50b49b46.png)
+   
+    1º Criei uma Variável com o nome de tradução  e atribui a mensagem principal e atual do texto,
+   
+    public traducao = 'Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:'
+    
+    2º Criei 3 funções uma para cada idioma a qual será modificada atráves do this. que mudará o estado atual da linguagem
+    para a linguagem escolhida.
+    
+    english() {
+
+    this.traducao = 'Hello, my name is Charlyes Souza Rodrigues and I am a Front-end developer, Technologies that I have experiences:'
+    }
+    portugues() {
+
+    this.traducao = 'Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:'
+    }
+    espanhol() {
+
+    this.traducao = 'Hola, mi nombre es Charlyes Souza Rodrigues y soy desarrollador Front-end, Tecnologías que tengo experiencias:'
+   }
+
+![image](https://user-images.githubusercontent.com/98665329/209449957-3faf65c7-1b80-4231-bcfa-815ddaed3838.png)
+
+ 1º No botao.component.html,criei 3 div e dei o nome class de cada uma segundo o idioma(função) criado no botao.compontent.ts
+ 
+ Esses nomes class serão utilizados para estilização no botao.component.scss. Existem outras tags criadas dentro de cada
+ 
+ div que se refere a cada botão de idioma. Essas outras tags não precisaram de um nome class, pois atrávés da div principal que contem
+ 
+ o nome class  elas serão estilizadas de forma encadeada.
+
+![image](https://user-images.githubusercontent.com/98665329/209451014-5923ce89-b98e-4040-bc9b-e5bcfd8c0cf4.png)
+
+Nesse componente se encontra a estilização feita de forma encadeada conforme o identificador de cada idioma que foi atribuída a uma div.
+
+![image](https://user-images.githubusercontent.com/98665329/209451220-126989a3-7fa9-44c3-bff4-3f7de1806801.png)
+
+
+const routes: Routes = [{ path: '', component: BotaoComponent }];
+
+Quando nós trabalhamos com rotas, nós temos duas propriedades:
+
+path: string que desejamos para a nossa rota, no nosso exemplo estamos utilizando botao.
+component: passamos o nome do component que desejamos adicionar para a nossa rota.
+
+![image](https://user-images.githubusercontent.com/98665329/209451449-2b8a2a88-bdd5-46bb-ac94-7ac4e7028b3d.png)
+
+Podemos observar que na linha 3 estamos passando as nossas rotas para o RouterModule através do método forRoot e exportando elas no linha 2.
+
+* header=> reponsável pelo cabeçalho do projeto
+
+* home => ficou responsável pela lista de teconologias (array)
+
+![image](https://user-images.githubusercontent.com/98665329/209451623-ab0658ea-79bd-4606-ad57-bb8a12c57cec.png)
+
+Foram criadas 3 listas contendo as tecologias contidas no protótipo do projeto
+
+![image](https://user-images.githubusercontent.com/98665329/209451871-13871f4f-08a3-499f-8264-bc574f4380ce.png)
+
+Para conseguir percorrer a lista de array, utilizei o Ngfor que é uma diretiva Angular que permite percorrer um array, ou 
+qualquer objeto iterável, e exibir cada item do array como elemento na tela.
+
+![image](https://user-images.githubusercontent.com/98665329/209451923-d3c93c99-2bed-46fb-8bcc-7f3f820dab15.png)
+
+Estilizando o projeto  conforme o identificador dado a tag no html
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207726923-15719394-0827-4576-8269-7d42be95396a.PNG)
