@@ -166,6 +166,11 @@ qualquer objeto iterável, e exibir cada item do array como elemento na tela.
 
 Estilizando o projeto  conforme o identificador dado a tag no html
 
+![image](https://user-images.githubusercontent.com/98665329/209452304-c40b81fd-6f62-4e08-bb72-b99b88bf7268.png)
+
+O app-routing.module.ts  a configuração rotas do app é bem diferente dos outros 
+caminho para a homme
+
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207726923-15719394-0827-4576-8269-7d42be95396a.PNG)
 
