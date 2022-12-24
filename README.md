@@ -100,9 +100,9 @@ Para esse projeto foram criados 3 componentes a qual dei o nome de botao,header 
 
 ![image](https://user-images.githubusercontent.com/98665329/209449663-3ba38117-9849-4187-9a2d-a14d50b49b46.png)
    
-   * 1º Criei uma Variável com o nome de tradução  e atribui a mensagem principal e atual do texto,
-   * 2º Criei 3 funções uma para cada idioma a qual será modificada atráves do this. que mudará o estado atual da linguagem
-   * para a linguagem escolhida.
+    1º Criei uma Variável com o nome de tradução  e atribui a mensagem principal e atual do texto,
+    2º Criei 3 funções uma para cada idioma a qual será modificada atráves do this. que mudará o estado atual da linguagem
+    para a linguagem escolhida.
 
 ![image](https://user-images.githubusercontent.com/98665329/209449957-3faf65c7-1b80-4231-bcfa-815ddaed3838.png)
 
