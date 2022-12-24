@@ -142,10 +142,10 @@ Quando nós trabalhamos com rotas, nós temos duas propriedades:
 path: string que desejamos para a nossa rota, no nosso exemplo estamos utilizando botao.
 component: passamos o nome do component que desejamos adicionar para a nossa rota.
 
-* @NgModule({
--linha2  exports: [ RouterModule ],
--linha3  imports: [ RouterModule.forRoot(routes) ]
-+})
+ @NgModule({
+*linha2  exports: [ RouterModule ],
+*linha3  imports: [ RouterModule.forRoot(routes) ]
+})
 
 Podemos observar que na linha 3 estamos passando as nossas rotas para o RouterModule através do método forRoot e exportando elas no linha 2.
 
