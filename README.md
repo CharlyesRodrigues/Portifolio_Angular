@@ -64,6 +64,15 @@ Além dos componentes e modules gerados, temos outros arquivos criados:
 
 ![image](https://user-images.githubusercontent.com/98665329/209446966-d8cc9f29-7912-4121-9609-14fb43a6b5e9.png)
 
+Esses três arquivos são responsáveis pela configuração automática do JavaScript no projeto.
+
+Agora vamos falar desse outro que é usado para realizar testes unitários
+
+![image](https://user-images.githubusercontent.com/98665329/209447030-20476632-0adf-4592-8d1c-dfc482cf20cc.png)
+
+
+![image](https://user-images.githubusercontent.com/98665329/209447091-1517e7af-51df-463a-b190-ac6991a6a5a5.png)
+que é o nosso arquivo de teste.
 
 
 
