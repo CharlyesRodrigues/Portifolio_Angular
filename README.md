@@ -137,6 +137,8 @@ Nesse componente se encontra a estilização feita de forma encadeada conforme o
 ![image](https://user-images.githubusercontent.com/98665329/209451220-126989a3-7fa9-44c3-bff4-3f7de1806801.png)
 
 
+const routes: Routes = [{ path: '', component: BotaoComponent }];
+
 Quando nós trabalhamos com rotas, nós temos duas propriedades:
 
 path: string que desejamos para a nossa rota, no nosso exemplo estamos utilizando botao.
@@ -151,7 +153,11 @@ Podemos observar que na linha 3 estamos passando as nossas rotas para o RouterMo
 
 
 
-+ home => ficou responsável pela lista de teconologias (array)
+* home => ficou responsável pela lista de teconologias (array)
+
+![image](https://user-images.githubusercontent.com/98665329/209451623-ab0658ea-79bd-4606-ad57-bb8a12c57cec.png)
+
+![image](https://user-images.githubusercontent.com/98665329/209451637-9fbbaaa6-ad28-482a-aa18-508851007a2a.png)
 
 
 
