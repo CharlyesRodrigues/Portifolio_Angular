@@ -1,7 +1,13 @@
-<div class="Components_Botao">
 
-    <p class="Traduzir">{{traducao}}</p>
+<!-- Div class criada para estilização conforme protótipo  e idioma expecífico
+O legal da estilização em SAAS é que não precisamos criar um id ou class para outras tags,
+basta utilizar a div class criada de cada idioma e entre colchetes encadear as outras tags dentro dessa principal...-->
+<div class="Botao_Portugues">
 
+    <!--Entre colchetes fiz a chamada da variável criada dentro do botao.component.ts-->
+    <p>{{traducao}}</p>
+
+    <!--Através da tag button  e do evento click, faço a chamada da função referente ao idioma escolhido "portugues()"-->
     <button (click)="portugues()">
         <div ></div>
         <h1 >Portugues</h1>
@@ -9,8 +15,8 @@
     </button>
 </div>
 
-
-<div class="Components_Botao2">
+<!-- Div class criada para estilização conforme protótipo  e idioma expecífico-->
+<div class="Botao_english">
     <button (click)="english()">
         <div ></div>
         <h1 >Inglês</h1>
@@ -18,7 +24,8 @@
     </button>
 </div>
 
-<div class="Components_Botao3">
+<!-- Div class criada para estilização conforme protótipo  e idioma expecífico-->
+<div class="Botao_Espanhol">
 
     <button (click)="espanhol()">
         <div ></div>

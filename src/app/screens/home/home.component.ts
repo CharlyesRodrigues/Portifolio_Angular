@@ -21,9 +21,10 @@ export class HomeComponent implements OnInit {
     "TypeScript"
   ];
 
-  lista3: Array<string> = [
+  lista3: Array<string> = [   
     "Angular",
     "Java"
+  
   ];
 
   constructor() { }
