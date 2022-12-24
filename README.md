@@ -11,6 +11,17 @@ a linguagem selecionada
 
 4) Esse projeto foi feito em Angular e para sua estilização utilizei o Saas.
 
+![icons8-angularjs-96](https://user-images.githubusercontent.com/98665329/209447866-60be6467-21b1-4bcf-80f5-5461672606d7.png)
+![icons8-reaccionar-80 (1)](https://user-images.githubusercontent.com/98665329/209447955-21ed9b80-f5cb-4ef3-9ff0-2f6334dcc318.png)
+
+
+O que é ![icons8-sass-96](https://user-images.githubusercontent.com/98665329/209448163-190c29d1-5e4a-4399-b3b0-e2b6319a17dc.png) ?
+Segundo sua própria página, a sigla SASS significa “Syntactically Awesome Style Sheets” – ou seja, Folhas de Estilo com Sintaxe Espetacular.
+
+A ideia é manter a mesma lógica do CSS (seletores, regras etc), mas de uma maneira mais organizada, intuitiva e com trechos de código facilmente reutilizáveis.
+
+Com o SASS, é muito mais fácil desenvolver um projeto grande e não se perder no meio de tanto código.
+   
 
 
                                                     Passo a Passo do Projeto:
@@ -81,6 +92,7 @@ que é o nosso arquivo de teste.
 serve para reconhecer os arquivos que criamos
 
 
+                                                     #Funcionalidades
 
 
 
