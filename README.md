@@ -171,6 +171,10 @@ Estilizando o projeto  conforme o identificador dado a tag no html
 Fiz no app.component.html  a integração de todos os component criado no projeto.Foi necessário utilizar o seletor 
 de cada componente.
 
+* <router-outlet></router-outlet>
+* <app-header></app-header>
+* <app-botao></app-botao>
+
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207726923-15719394-0827-4576-8269-7d42be95396a.PNG)
 
