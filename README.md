@@ -12,20 +12,21 @@ a linguagem selecionada
 4) Esse projeto foi feito em Angular e para sua estilização utilizei o Saas.
 
 
-##Passo a Passo do Projeto:
+                                                                  Passo a Passo do Projeto:
 Instalando no terminal power shell clicando no botão direito como administrador para o projeto em angular 
 
 1º Executar o comando CLI usando o npm gerenciador de pacotes e clica com botão direito em administrador, ao abrir digita:
 npm install -g @angular/cli  
+
 2º Para criar, construir e servir um novo projeto Angular básico em um servidor de desenvolvimento, vá para o diretório (pasta) que criou no seu espaço de trabalho e use o seguinte comando👇
 ng new nome do projeto ( ex. projetoangular-web3.0)  
 
- Quando perguntar digita: - y 
+Quando perguntar digita: - y 
 
-Escolhe a estilização Sass  dá Enter 
+Escolhe a estilização Sass e dá Enter 
 Aguarda a instalação dos pacotes no projeto,
 E altera copiando e colando para a pasta do projeto que foi criado antes de abrir no VSCode com o comando.
-cd nomepastaprojeto
+cd nome pasta projeto
 
 3º Agora sim vai Abrir o Projeto no Terminal para a ferramenta VSCode, digitando 👊
 code .
@@ -35,41 +36,26 @@ Executar o projeto no servidor digitando:
 ng serve
 
 
- Vai compilar na porta http://localhost:4200/.
+Vai compilar na porta http://localhost:4200/.
 Criando component:
 ng g c
-
- O componente é composto por 3 arquivos, para template (HTML), estilo (SASS) e classe (TS) e toda essa configuração é feita dentro do decorador @Component onde é passado como metadados o template, o estilo e um seletor para que este componente possa ser usado em outro template.
-
-Criando module:
-ng g m
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
- É uma classe marcada pelo decorador. recebe um objeto de metadados que descreve como compilar o modelo de um componente e como criar um injetor em tempo de execução.
-
-Bibliotecas importadas no terminal do VSCode
-ng add @angular/material
-
-
-
-    Para criar os projetos em Angular, temos que instalar sua CLI e para isso utilizei o comando
-npm install -g @angular/cli.
-Após esse comando acima, no terminal digitei outro comando que é o ng new  e o nome do projeto a 
-qual criei que nesse caso é Portifolio_Angular. Abri o projeto no Visual Code
-
-    Nesse projeto utilizei 1 pasta cujo nome é components que contém uma subpasta chamada botao.Criei uma pasta 
-chamada header e uma screens com uma subpasta chamada home.Cada pasta contém 4 arquivos components, 1 arquivo module e
-um arquivo routing. Para a criação dos 4 arquivos components, digitei o comando ng g c que me gerou os 4 arquivos components.
 
 Exemplo: Pasta home teve os seguintes arquivos gerados :
 component.html,
 component.scss,
 component.spec.ts,
 component.ts.
-    Faltou o arquivo module que foi criado através do comando ng g m e o routing que foi criado manualmente através
-do exemplo da routing do app.
- Após criado os components, os modules e os routings, eu configurei meu arquivo global dentro do styles.scss e importei
- dentro dele a font contida no import forncecida pelo google fonts.Após isso apaguei quase toda a escrita contida dentro
- do component.html do meu app. Como eu disse apaguei quase tudo, ou seja, deixei só o <router-outlet>
+
+ O componente é composto por 3 arquivos, para template (HTML), estilo (SASS) e classe (TS) e toda essa configuração é feita dentro do decorador @Component onde é passado como metadados o template, o estilo e um seletor para que este componente possa ser usado em outro template.
+
+Criando module:
+ng g m
+É uma classe marcada pelo decorador. recebe um objeto de metadados que descreve como compilar o modelo de um componente e como criar um injetor em tempo de execução.
+
+
+Após criado os components, os modules e os routings, eu configurei meu arquivo global dentro do styles.scss e importei
+dentro dele a font contida no import forncecida pelo google fonts.Após isso apaguei quase toda a escrita contida dentro
+do component.html do meu app. Como eu disse apaguei quase tudo, ou seja, deixei só o <router-outlet>
 
 
 
