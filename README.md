@@ -104,6 +104,18 @@ Para esse projeto foram criados 3 componentes a qual dei o nome de botao,header 
     public traducao = 'Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:'
     2º Criei 3 funções uma para cada idioma a qual será modificada atráves do this. que mudará o estado atual da linguagem
     para a linguagem escolhida.
+    english() {
+
+    this.traducao = 'Hello, my name is Charlyes Souza Rodrigues and I am a Front-end developer, Technologies that I have experiences:'
+    }
+    portugues() {
+
+    this.traducao = 'Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:'
+    }
+    espanhol() {
+
+    this.traducao = 'Hola, mi nombre es Charlyes Souza Rodrigues y soy desarrollador Front-end, Tecnologías que tengo experiencias:'
+   }
 
 ![image](https://user-images.githubusercontent.com/98665329/209449957-3faf65c7-1b80-4231-bcfa-815ddaed3838.png)
 
