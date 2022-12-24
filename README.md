@@ -157,8 +157,13 @@ Podemos observar que na linha 3 estamos passando as nossas rotas para o RouterMo
 Foram criadas 3 listas contendo as tecologias contidas no protótipo do projeto
 
 ![image](https://user-images.githubusercontent.com/98665329/209451871-13871f4f-08a3-499f-8264-bc574f4380ce.png)
+
 Para conseguir percorrer a lista de array, utilizei o Ngfor que é uma diretiva Angular que permite percorrer um array, ou 
 qualquer objeto iterável, e exibir cada item do array como elemento na tela.
+
+![image](https://user-images.githubusercontent.com/98665329/209451923-d3c93c99-2bed-46fb-8bcc-7f3f820dab15.png)
+
+Estilizando o projeto  conforme o identificador dado a tag no html
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207726923-15719394-0827-4576-8269-7d42be95396a.PNG)
