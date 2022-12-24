@@ -31,57 +31,7 @@ do exemplo da routing do app.
  dentro dele a font contida no import forncecida pelo google fonts.Após isso apaguei quase toda a escrita contida dentro
  do component.html do meu app. Como eu disse apaguei quase tudo, ou seja, deixei só o <router-outlet>
 
-Passo a Passo do Projeto:
-Instalando no terminal power shell clicando no botão direito como administrador para o projeto em angular 
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f48507a4e424664546838737868714e6470582f67697068792e676966
-1º Executar o comando CLI usando o npm gerenciador de pacotes e clica com botão direito em administrador, ao abrir digita:
-npm install -g @angular/cli  
-2º Para criar, construir e servir um novo projeto Angular básico em um servidor de desenvolvimento, vá para o diretório (pasta) que criou no seu espaço de trabalho e use o seguinte comando👇
-ng new nome do projeto ( ex. projetoangular-web3.0)  
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
- Quando perguntar digita: - y 
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
-Escolhe a estilização `` `Sasse dáEnter```
-Aguarda a instalação dos pacotes no projeto,
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
-E altera copiando e colando para a pasta do projeto que foi criado antes de abrir no VSCode com o comando.
-cd nomepastaprojeto
 
-3º Agora sim vai Abrir o Projeto no Terminal para a ferramenta VSCode, digitando 👊
-code .
-
-Dentro do editor de código VSCode:
-Executar o projeto no servidor digitando:
-ng serve
-
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
- Vai compilar na porta http://localhost:4200/.
-Criando component:
-ng g c
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
- O componente é composto por 3 arquivos, para template (HTML), estilo (SASS) e classe (TS) e toda essa configuração é feita dentro do decorador @Component onde é passado como metadados o template, o estilo e um seletor para que este componente possa ser usado em outro template.
-
-Criando module:
-ng g m
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
- É uma classe marcada pelo decorador. recebe um objeto de metadados que descreve como compilar o modelo de um componente e como criar um injetor em tempo de execução.
-
-Bibliotecas importadas no terminal do VSCode👇
-ng add @angular/material
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
- Inclui informações sobre pré-requisitos, instalação do Angular Material e, opcionalmente, exibição de um componente Material de amostra em seu aplicativo para verificar sua configuração.
-
-Implementando Build
-ng build
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
- Execute 'ng build' para compilar o projeto. Os artefatos de compilação serão armazenados no diretório 'dist/'.
-
-Criando o módulo de rotas
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
- Em nossa aplicação é um arquivo de módulo das rotas e importá-lo posteriormente no Root Module. Este arquivo de rotas, normalmente chamado app-routing.module.ts
-
-▶ 😀👀 Bora lá....
-Gostou, então já clica na 🌟
 
 
 
