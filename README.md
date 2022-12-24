@@ -150,20 +150,15 @@ Podemos observar que na linha 3 estamos passando as nossas rotas para o RouterMo
 
 * header=> reponsável pelo cabeçalho do projeto
 
-
-
-
 * home => ficou responsável pela lista de teconologias (array)
 
 ![image](https://user-images.githubusercontent.com/98665329/209451623-ab0658ea-79bd-4606-ad57-bb8a12c57cec.png)
 
-![image](https://user-images.githubusercontent.com/98665329/209451637-9fbbaaa6-ad28-482a-aa18-508851007a2a.png)
-![image](https://user-images.githubusercontent.com/98665329/209451667-b17ce34a-e72f-497c-a080-422e5b23155c.png)
-![image](https://user-images.githubusercontent.com/98665329/209451778-c0b09b16-f041-4342-af21-fd909fef5eed.png)
+Foram criadas 3 listas contendo as tecologias contidas no protótipo do projeto
 
-
-
-
+![image](https://user-images.githubusercontent.com/98665329/209451871-13871f4f-08a3-499f-8264-bc574f4380ce.png)
+Para conseguir percorrer a lista de array, utilizei o Ngfor que é uma diretiva Angular que permite percorrer um array, ou 
+qualquer objeto iterável, e exibir cada item do array como elemento na tela.
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207726923-15719394-0827-4576-8269-7d42be95396a.PNG)
