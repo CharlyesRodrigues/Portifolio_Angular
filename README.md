@@ -58,10 +58,10 @@ ng g c
 
 Exemplo: Pasta home teve os seguintes arquivos gerados :
 
-component.html,
-component.scss,
-component.spec.ts,
-component.ts.
+- component.html,
+* component.scss,
++ component.spec.ts,
+- component.ts.
 
  O componente é composto por 3 arquivos, para template (HTML), estilo (SASS) e classe (TS) e toda essa configuração é feita dentro do decorador @Component onde é passado como metadados o template, o estilo e um seletor para que este componente possa ser usado em outro template.
 
