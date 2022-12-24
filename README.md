@@ -122,7 +122,9 @@ Para esse projeto foram criados 3 componentes a qual dei o nome de botao,header 
 
 ![image](https://user-images.githubusercontent.com/98665329/209449957-3faf65c7-1b80-4231-bcfa-815ddaed3838.png)
 
- 1º No botao.component.html , criei 3 div e dei o nome class de cada uma segundo o idioma(função) criado no botao.compontent.ts
+ 1º No botao.component.html , 
+ 
+ criei 3 div e dei o nome class de cada uma segundo o idioma(função) criado no botao.compontent.ts
  
  Esses nomes class serão utilizados para estilização no botao.component.scss. Existem outras tags criadas dentro de cada
  
