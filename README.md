@@ -71,8 +71,9 @@ Agora vamos falar desse outro que é usado para realizar testes unitários
 ![image](https://user-images.githubusercontent.com/98665329/209447030-20476632-0adf-4592-8d1c-dfc482cf20cc.png)
 
 
-![image](https://user-images.githubusercontent.com/98665329/209447091-1517e7af-51df-463a-b190-ac6991a6a5a5.png)
-que é o nosso arquivo de teste.
+Todo componente gerado no Angular, gera o arquivo abaixo
+![image](https://user-images.githubusercontent.com/98665329/209447166-8130cb42-cca8-4849-aa89-6c35a337b42f.png) que é o nosso arquivo de teste.
+
 
 
 
