@@ -76,6 +76,9 @@ Todo componente gerado no Angular, gera o arquivo
 ![image](https://user-images.githubusercontent.com/98665329/209447166-8130cb42-cca8-4849-aa89-6c35a337b42f.png) 
 que é o nosso arquivo de teste.
 
+![image](https://user-images.githubusercontent.com/98665329/209447218-85e03a2a-15bd-45fd-a86d-6ad33280a129.png)
+serve para reconhecer os arquivos que criamos
+
 
 
 
