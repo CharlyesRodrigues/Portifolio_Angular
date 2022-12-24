@@ -24,7 +24,7 @@ Com o SASS, é muito mais fácil desenvolver um projeto grande e não se perder 
    
 
 
-                                                    Passo a Passo do Projeto:
+# Passo a Passo do Projeto:
 Instalando no terminal power shell clicando no botão direito como administrador para o projeto em angular 
 
 1º Executar o comando CLI usando o npm gerenciador de pacotes e clica com botão direito em administrador, ao abrir digita:
