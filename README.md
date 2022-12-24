@@ -97,6 +97,11 @@ serve para reconhecer os arquivos que criamos
 Para esse projeto foram criados 3 componentes a qual dei o nome de:
 
 - botao => responsável pela acão de mudança de idioma conforme o botão escolhido através da função criada para esse objetivo
+![image](https://user-images.githubusercontent.com/98665329/209449663-3ba38117-9849-4187-9a2d-a14d50b49b46.png)
+  /** 1º Criei uma Variável com o nome de tradução  e atribui a mensagem principal do testo,
+   *  2º Criei 3 funções uma para cada idioma a qual será modificada atráves do this. que mudará o estado atual da linguagem
+   * para a linguagem escolhida. */
+
 * header=> reponsável pelo cabeçalho do projeto
 + home => ficou responsável pela lista de teconologias (array)
 
