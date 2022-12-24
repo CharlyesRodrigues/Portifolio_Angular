@@ -10,7 +10,7 @@ a linguagem selecionada
 ícone e o click dele
 
 4) Esse projeto foi feito em Angular e para sua estilização utilizei o Saas.
-
+:angular:
 
 Passo a Passo do Projeto:
 Instalando no terminal power shell clicando no botão direito como administrador para o projeto em angular 
