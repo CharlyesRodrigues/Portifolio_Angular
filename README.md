@@ -171,7 +171,8 @@ Estilizando o projeto  conforme o identificador dado a tag no html
 Fiz no app.component.html  a integração de quase todos os component criado no projeto.Foi necessário utilizar o seletor 
 de cada componente.
 
-![image](https://user-images.githubusercontent.com/98665329/209452683-74cf0751-33d1-447e-abba-f787949e90ed.png)
+![image](https://user-images.githubusercontent.com/98665329/209452777-e0589bc0-3fff-484a-ae1c-afd0a7d91a69.png)
+
 
 O componente da Home foi integrado através do app-routing.module.ts
 
