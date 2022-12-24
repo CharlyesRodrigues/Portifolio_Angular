@@ -12,13 +12,14 @@ a linguagem selecionada
 4) Esse projeto foi feito em Angular e para sua estilização utilizei o Saas.
 
 
-                                            Passo a Passo do Projeto:
+                                                      Passo a Passo do Projeto:
 Instalando no terminal power shell clicando no botão direito como administrador para o projeto em angular 
 
 1º Executar o comando CLI usando o npm gerenciador de pacotes e clica com botão direito em administrador, ao abrir digita:
 npm install -g @angular/cli  
 
-2º Para criar, construir e servir um novo projeto Angular básico em um servidor de desenvolvimento, vá para o diretório (pasta) que criou no seu espaço de trabalho e use o seguinte comando👇
+2º Para criar, construir e servir um novo projeto Angular básico em um servidor de desenvolvimento, vá para o diretório (pasta) que criou no seu espaço de trabalho e use o seguinte comando
+
 ng new nome do projeto ( ex. projetoangular-web3.0)  
 
 Quando perguntar digita: - y 
