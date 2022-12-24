@@ -12,7 +12,7 @@ a linguagem selecionada
 4) Esse projeto foi feito em Angular e para sua estilização utilizei o Saas.
 
 ![icons8-angularjs-96](https://user-images.githubusercontent.com/98665329/209447866-60be6467-21b1-4bcf-80f5-5461672606d7.png)
-![icons8-reaccionar](https://user-images.githubusercontent.com/98665329/209447915-1c24cd04-f05c-4f21-b0b9-15b739054105.gif)
+![icons8-reaccionar-80 (1)](https://user-images.githubusercontent.com/98665329/209447955-21ed9b80-f5cb-4ef3-9ff0-2f6334dcc318.png)
 
    
 
