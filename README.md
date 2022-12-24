@@ -128,6 +128,7 @@ Para esse projeto foram criados 3 componentes a qual dei o nome de botao,header 
  o nome class  elas serão estilizadas de forma encadeada.
 
 ![image](https://user-images.githubusercontent.com/98665329/209451014-5923ce89-b98e-4040-bc9b-e5bcfd8c0cf4.png)
+
 Nesse componente se encontra a estilização feita de forma encadeada conforme o identificador de cada idioma que foi atribuída a uma div.
 
 
