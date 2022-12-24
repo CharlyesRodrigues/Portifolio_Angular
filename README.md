@@ -12,7 +12,7 @@ a linguagem selecionada
 4) Esse projeto foi feito em Angular e para sua estilização utilizei o Saas.
 
 
-                                                      Passo a Passo do Projeto:
+                                                    Passo a Passo do Projeto:
 Instalando no terminal power shell clicando no botão direito como administrador para o projeto em angular 
 
 1º Executar o comando CLI usando o npm gerenciador de pacotes e clica com botão direito em administrador, ao abrir digita:
