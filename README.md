@@ -106,6 +106,8 @@ Para esse projeto foram criados 3 componentes a qual dei o nome de botao,header 
 
 ![image](https://user-images.githubusercontent.com/98665329/209449957-3faf65c7-1b80-4231-bcfa-815ddaed3838.png)
 
+No botao.component.html , criei 3 div e dei o nome class de cada umma segundo o idioma criado no botao.compontent.ts
+
 
 * header=> reponsável pelo cabeçalho do projeto
 + home => ficou responsável pela lista de teconologias (array)
