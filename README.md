@@ -1,5 +1,5 @@
 
-Requisitos:
+:pushpin: Requisitos:
 
 1) A lista de tecnologias deve ser um array onde no HTML você irá fazer um map para listar
 
@@ -10,7 +10,7 @@ a linguagem selecionada
 ícone e o click dele
 
 4) Esse projeto foi feito em Angular e para sua estilização utilizei o Saas.
-:nerd_face:
+
 
 
     Para criar os projetos em Angular, temos que instalar sua CLI e para isso utilizei o comando
