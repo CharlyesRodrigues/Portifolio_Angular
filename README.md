@@ -159,6 +159,8 @@ Podemos observar que na linha 3 estamos passando as nossas rotas para o RouterMo
 
 ![image](https://user-images.githubusercontent.com/98665329/209451637-9fbbaaa6-ad28-482a-aa18-508851007a2a.png)
 ![image](https://user-images.githubusercontent.com/98665329/209451667-b17ce34a-e72f-497c-a080-422e5b23155c.png)
+![image](https://user-images.githubusercontent.com/98665329/209451752-d1d9ec12-efd5-4d59-b182-6ed92f6d2935.png)
+
 
 
 
