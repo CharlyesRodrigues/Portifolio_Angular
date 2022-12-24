@@ -136,14 +136,16 @@ Nesse componente se encontra a estilização feita de forma encadeada conforme o
 
 ![image](https://user-images.githubusercontent.com/98665329/209451220-126989a3-7fa9-44c3-bff4-3f7de1806801.png)
 
+const routes: Routes = [{ path: '', component: BotaoComponent }];
+
 Quando nós trabalhamos com rotas, nós temos duas propriedades:
 
-path: string que desejamos para a nossa rota, no nosso exemplo estamos utilizando home.
+path: string que desejamos para a nossa rota, no nosso exemplo estamos utilizando botao.
 component: passamos o nome do component que desejamos adicionar para a nossa rota.
 
 @NgModule({
-linha2  exports: [ RouterModule ],
-linha3  imports: [ RouterModule.forRoot(routes) ]
+-linha2  exports: [ RouterModule ],
+-linha3  imports: [ RouterModule.forRoot(routes) ]
 })
 
 Podemos observar que na linha 3 estamos passando as nossas rotas para o RouterModule através do método forRoot e exportando elas no linha 2.
