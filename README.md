@@ -11,9 +11,8 @@ a linguagem selecionada
 
 4) Esse projeto foi feito em Angular e para sua estilização utilizei o Saas.
 
-![image](https://user-images.githubusercontent.com/98665329/209447303-95642591-8d96-4d25-8d8c-1217901a5658.png)        ![image](https://user-images.githubusercontent.com/98665329/209447367-38389232-9499-4584-a4c7-8172bbf03bfb.png)
-
-
+![image](https://user-images.githubusercontent.com/98665329/209447303-95642591-8d96-4d25-8d8c-1217901a5658.png)              ![image](https://user-images.githubusercontent.com/98665329/209447429-565171c9-0e84-4789-a33c-49eaf255d492.png)
+   
 
                                                     Passo a Passo do Projeto:
 Instalando no terminal power shell clicando no botão direito como administrador para o projeto em angular 
