@@ -168,7 +168,7 @@ Estilizando o projeto  conforme o identificador dado a tag no html
 
 ![image](https://user-images.githubusercontent.com/98665329/209452304-c40b81fd-6f62-4e08-bb72-b99b88bf7268.png)
 
-O app-routing.module.ts  a configuração rotas do app é bem diferente dos outros 
+O app-routing.module.ts têm a configuração de rotas do app  bem diferente dos outros 
 caminho para a homme
 
 
