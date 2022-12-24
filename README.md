@@ -142,6 +142,8 @@ Quando nós trabalhamos com rotas, nós temos duas propriedades:
 path: string que desejamos para a nossa rota, no nosso exemplo estamos utilizando botao.
 component: passamos o nome do component que desejamos adicionar para a nossa rota.
 
+![image](https://user-images.githubusercontent.com/98665329/209451449-2b8a2a88-bdd5-46bb-ac94-7ac4e7028b3d.png)
+
  @NgModule({
 *linha2  exports: [ RouterModule ],
 *linha3  imports: [ RouterModule.forRoot(routes) ]
