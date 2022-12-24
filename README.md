@@ -144,16 +144,13 @@ component: passamos o nome do component que desejamos adicionar para a nossa rot
 
 ![image](https://user-images.githubusercontent.com/98665329/209451449-2b8a2a88-bdd5-46bb-ac94-7ac4e7028b3d.png)
 
- @NgModule({
-*linha2  exports: [ RouterModule ],
-*linha3  imports: [ RouterModule.forRoot(routes) ]
-})
-
 Podemos observar que na linha 3 estamos passando as nossas rotas para o RouterModule através do método forRoot e exportando elas no linha 2.
 
-
-
 * header=> reponsável pelo cabeçalho do projeto
+
+
+
+
 + home => ficou responsável pela lista de teconologias (array)
 
 
