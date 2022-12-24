@@ -60,6 +60,10 @@ dentro dele a font contida no import forncecida pelo google fonts.Após isso apa
 do component.html do meu app. Como eu disse apaguei quase tudo, ou seja, deixei só o
 <router-outlet></router-outlet>
 
+Além dos componentes e modules gerados, temos outros arquivos criados:
+
+![image](https://user-images.githubusercontent.com/98665329/209446966-d8cc9f29-7912-4121-9609-14fb43a6b5e9.png)
+
 
 
 
