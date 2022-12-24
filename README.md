@@ -11,7 +11,7 @@ a linguagem selecionada
 
 4) Esse projeto foi feito em Angular e para sua estilização utilizei o Saas.
 
-![image](https://appmakr.net/wp-content/uploads/2020/06/react-native-logo.png)  
+![image](https://iconos8.es/icons/set/react-js)  
 ![image](https://user-images.githubusercontent.com/98665329/209447429-565171c9-0e84-4789-a33c-49eaf255d492.png)
    
 
