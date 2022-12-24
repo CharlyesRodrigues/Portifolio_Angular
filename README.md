@@ -94,6 +94,12 @@ serve para reconhecer os arquivos que criamos
 
 # Funcionalidades 
 
+Para esse projeto foram criados 3 componentes a qual dei o nome de:
+
+- botao => responsável pela acão de mudança de idioma conforme o botão escolhido.
+* header=> reponsável pelo cabeçalho do projeto
++ home => ficou responsável pela lista de teconologias (array)
+
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207726923-15719394-0827-4576-8269-7d42be95396a.PNG)
