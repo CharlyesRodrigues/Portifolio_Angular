@@ -29,7 +29,7 @@ component.ts.
 do exemplo da routing do app.
  Após criado os components, os modules e os routings, eu configurei meu arquivo global dentro do styles.scss e importei
  dentro dele a font contida no import forncecida pelo google fonts.Após isso apaguei quase toda a escrita contida dentro
- do component.html do meu app. Como eu disse apaguei quase tudo, ou seja, deixei só o <router-outlet></router-outlet>
+ do component.html do meu app. Como eu disse apaguei quase tudo, ou seja, deixei só o <router-outlet>
 
 
 
