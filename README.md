@@ -101,9 +101,12 @@ Para esse projeto foram criados 3 componentes a qual dei o nome de botao,header 
 ![image](https://user-images.githubusercontent.com/98665329/209449663-3ba38117-9849-4187-9a2d-a14d50b49b46.png)
    
     1º Criei uma Variável com o nome de tradução  e atribui a mensagem principal e atual do texto,
+   
     public traducao = 'Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:'
+    
     2º Criei 3 funções uma para cada idioma a qual será modificada atráves do this. que mudará o estado atual da linguagem
     para a linguagem escolhida.
+    
     english() {
 
     this.traducao = 'Hello, my name is Charlyes Souza Rodrigues and I am a Front-end developer, Technologies that I have experiences:'
