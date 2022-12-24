@@ -166,10 +166,10 @@ qualquer objeto iterável, e exibir cada item do array como elemento na tela.
 
 Estilizando o projeto  conforme o identificador dado a tag no html
 
-![image](https://user-images.githubusercontent.com/98665329/209452304-c40b81fd-6f62-4e08-bb72-b99b88bf7268.png)
-
-O app-routing.module.ts têm a configuração de rotas do app  bem diferente dos outros 
-caminho para a homme
+![image](https://user-images.githubusercontent.com/98665329/209452599-a9c0ff63-ba90-4c83-a1d8-a674bf099db5.png)
+ 
+Fiz no app.component.html  a integração de todos os component criado no projeto.Foi necessário utilizar o seletor 
+de cada componente.
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207726923-15719394-0827-4576-8269-7d42be95396a.PNG)
