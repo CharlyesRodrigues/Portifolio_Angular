@@ -124,8 +124,11 @@ Para esse projeto foram criados 3 componentes a qual dei o nome de botao,header 
 
  No botao.component.html , criei 3 div e dei o nome class de cada uma segundo o idioma(função) criado no botao.compontent.ts
  Esses nomes class serão utilizados para estilização no botao.component.scss. Existem outras tags criadas dentro de cada
- div que se refere a cada botão de idioma. Essas outras tags não precisei dar um nome class, pois atrávés da div principal
- elas serão estilizadas de forma encadeada, dentro de cada tag div criada com o seu respectivo class idioma.
+ div que se refere a cada botão de idioma. Essas outras tags não precisaram de um nome class, pois atrávés da div principal que contem
+ o nome class  elas serão estilizadas de forma encadeada.
+
+![image](https://user-images.githubusercontent.com/98665329/209451014-5923ce89-b98e-4040-bc9b-e5bcfd8c0cf4.png)
+Nesse componente se encontra a estilização feita de forma encadeada conforme o identificador de cada idioma que foi atribuída a uma div.
 
 
 * header=> reponsável pelo cabeçalho do projeto
