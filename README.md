@@ -10,21 +10,20 @@ a linguagem selecionada
 ícone e o click dele
 
 4) Esse projeto foi feito em Angular e para sua estilização utilizei o Saas.
-:angular:
 
-Passo a Passo do Projeto:
+
+##Passo a Passo do Projeto:
 Instalando no terminal power shell clicando no botão direito como administrador para o projeto em angular 
-https://camo.githubusercontent.com/160ef944b0e9c7960347d0d04c18dbf63116ce5ae0a73f9297ca46389a515bfe/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
+
 1º Executar o comando CLI usando o npm gerenciador de pacotes e clica com botão direito em administrador, ao abrir digita:
 npm install -g @angular/cli  
 2º Para criar, construir e servir um novo projeto Angular básico em um servidor de desenvolvimento, vá para o diretório (pasta) que criou no seu espaço de trabalho e use o seguinte comando👇
 ng new nome do projeto ( ex. projetoangular-web3.0)  
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
+
  Quando perguntar digita: - y 
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
-Escolhe a estilização `` `Sasse dáEnter```
+
+Escolhe a estilização Sass  dá Enter 
 Aguarda a instalação dos pacotes no projeto,
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
 E altera copiando e colando para a pasta do projeto que foi criado antes de abrir no VSCode com o comando.
 cd nomepastaprojeto
 
@@ -35,11 +34,11 @@ Dentro do editor de código VSCode:
 Executar o projeto no servidor digitando:
 ng serve
 
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
+
  Vai compilar na porta http://localhost:4200/.
 Criando component:
 ng g c
-68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
+
  O componente é composto por 3 arquivos, para template (HTML), estilo (SASS) e classe (TS) e toda essa configuração é feita dentro do decorador @Component onde é passado como metadados o template, o estilo e um seletor para que este componente possa ser usado em outro template.
 
 Criando module:
@@ -47,8 +46,9 @@ ng g m
 68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f58776352666c4f39484430536b365261524d2f67697068792e676966
  É uma classe marcada pelo decorador. recebe um objeto de metadados que descreve como compilar o modelo de um componente e como criar um injetor em tempo de execução.
 
-Bibliotecas importadas no terminal do VSCode👇
+Bibliotecas importadas no terminal do VSCode
 ng add @angular/material
+
 
 
     Para criar os projetos em Angular, temos que instalar sua CLI e para isso utilizei o comando
