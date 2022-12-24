@@ -168,12 +168,12 @@ Estilizando o projeto  conforme o identificador dado a tag no html
 
 ![image](https://user-images.githubusercontent.com/98665329/209452599-a9c0ff63-ba90-4c83-a1d8-a674bf099db5.png)
  
-Fiz no app.component.html  a integração de todos os component criado no projeto.Foi necessário utilizar o seletor 
+Fiz no app.component.html  a integração de quase todos os component criado no projeto.Foi necessário utilizar o seletor 
 de cada componente.
 
 ![image](https://user-images.githubusercontent.com/98665329/209452683-74cf0751-33d1-447e-abba-f787949e90ed.png)
 
-O componente da Home foi integrada  através do app-routing.ts
+O componente da Home foi integrado através do app-routing.module.ts
 
 ![image](https://user-images.githubusercontent.com/98665329/209452706-feaa1ae8-0684-4def-b568-ed3d71f02620.png)
 
