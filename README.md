@@ -1,5 +1,5 @@
 
-:pushpin: Requisitos:
+:pushpin: # Requisitos:
 
 1) A lista de tecnologias deve ser um array onde no HTML você irá fazer um map para listar
 
